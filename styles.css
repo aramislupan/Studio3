@@ -1,0 +1,249 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  
+  img {
+    margin: 0.625rem auto;
+    height: auto;
+    width: auto;
+  }
+  
+  ul {
+    text-align: right;
+  }
+  
+  h1 {
+    font-size: 3.125rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.85rem;
+  }
+  
+  /*Sizing*/
+  
+  .container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between
+  }
+
+  .spacer {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main {
+      background-color: #ffc200;
+  }
+  
+  /*Header Section*/
+  
+  .header {
+    background: white;
+    position: fixed;
+    width: -webkit-fill-available;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    padding-top: 1.5625rem;
+    padding-bottom:  1.5625rem;
+  }
+
+  .header ul {
+    margin: 0;
+  }
+  
+  .header li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .header h3{
+    margin: 0;
+    letter-spacing: 0.125rem;
+    font-weight: 500;
+  }
+
+  .header h4{
+    color: #333;
+    font-weight: 300;
+    padding-left: 0.625rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /*Cover Section*/
+  
+  .cover {
+    background-color: #fff;
+    background-size: cover;
+    background-image: url('/Users/camilo/Desktop/Projects/Studio3/resources/154689-cool-coding-background-1920x1280-for-tablet.jpg');
+    min-height: 50rem;
+    padding-top: 4.875rem;
+  }
+  
+  .cover h1 {
+    font-weight: 400;
+    margin: auto;
+    padding-top: 4.6875rem;
+    padding-left: 1.875rem;
+    color:#ffc200;
+  }
+
+  .cover h2 {
+    font-weight: 300;
+    margin: auto;
+    padding-left: 1.875rem;
+    color:white;
+  }
+  
+  /*What We Do Section*/
+
+  #whatWeDo h2{
+    color: white; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 4.875rem;
+  }
+
+  .content {
+    display: grid;
+  }
+
+  .content .title {
+    
+    color: black;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    text-align: center;
+  }
+
+  .title h2 {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  .text h3 {
+    font-weight: 100;
+    margin: 0;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-bottom: 3.125rem;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+
+  .title ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .title li {
+    font-weight: 100;
+  }
+  
+  .cover2 {
+    background-size: cover;
+    background-image: url('/Users/camilo/Desktop/Projects/Studio3/resources/WordPress-Developer-Working.jpg');
+    min-height: 25rem;
+  }
+ 
+  /*Our Work Section*/
+
+  #ourWork h2{
+    color: white; 
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    height: 4.875rem;
+  }
+
+  .cards {
+    background-color: ghostwhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .col img {
+      margin: 0rem;
+  }
+
+  .col h4 {
+    margin: 0rem;
+    max-width: 250px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  .col h5 {
+    margin: 0rem;
+    max-width: 250px;
+    font-weight: 100;
+  }
+
+  /*Our Team Section*/
+
+  #ourTeam h2{
+    color: white; 
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    height: 4.875rem;
+  }
+
+  .cover3 {
+    background-size: cover;
+    background-image: url('/Users/camilo/Desktop/Projects/Studio3/resources/photo-1522071820081-009f0129c71c.jpg');
+    min-height: 25rem;
+  }
+
+  /*Footer Section*/
+  .footer {
+    padding: 60px 0px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .footer p {
+    font-size:12px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
