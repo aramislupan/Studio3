@@ -94,7 +94,7 @@ html, body {
   .cover {
     background-color: #fff;
     background-size: cover;
-    background-image: url('/Users/camilo/Desktop/Projects/Studio3/resources/154689-cool-coding-background-1920x1280-for-tablet.jpg');
+    background-image: url('resources/154689-cool-coding-background-1920x1280-for-tablet.jpg');
     min-height: 50rem;
     padding-top: 4.875rem;
   }
@@ -172,7 +172,7 @@ html, body {
   
   .cover2 {
     background-size: cover;
-    background-image: url('/Users/camilo/Desktop/Projects/Studio3/resources/WordPress-Developer-Working.jpg');
+    background-image: url('resources/WordPress-Developer-Working.jpg');
     min-height: 25rem;
   }
  
@@ -226,7 +226,7 @@ html, body {
 
   .cover3 {
     background-size: cover;
-    background-image: url('/Users/camilo/Desktop/Projects/Studio3/resources/photo-1522071820081-009f0129c71c.jpg');
+    background-image: url('resources/photo-1522071820081-009f0129c71c.jpg');
     min-height: 25rem;
   }
 
